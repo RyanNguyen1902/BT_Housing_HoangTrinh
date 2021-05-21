@@ -1,0 +1,56 @@
+/* GLOBAL  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+	padding:0;
+	margin:0;
+	background:#fff;
+font-family: 'Montserrat', sans-serif;
+}
+/*-- header --*/ 
+.container{
+    width: 100%;
+   
+}
+/* Tang do uu tien  */
+
+#navbarPort .nav-item {
+    padding: 0px 10px;
+}
+
+#navbarPort .nav-item::after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: #35a22c;
+    display: block;
+    transition: .5s;
+}
+
+#navbarPort .nav-item:hover::after {
+    width: 10%;
+}
+
+#navbarPort .active::after {
+    width: 100%;
+}
+
+/* Carousel  */
+
+#carouselPort .carousel-item {
+    /* vh viewport height  */
+    /* vw: view port width  */
+    /* % theo the cha gan nhat  */
+    /* vh di theo the lon nhat html  */
+    /* vh thuong dung xet chieu cao cua carousel  */
+    /* vw thuong dung xet chu tu dong lon nho khi responsive  */
+    height: 100vh;
+}
+
+#carouselPort .carousel-item img {
+    height: 100%;
+}
